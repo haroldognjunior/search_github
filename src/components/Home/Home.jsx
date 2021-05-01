@@ -10,16 +10,9 @@ const Home = () => {
     <Container>
       <div className="Home">
         <h1>
-          Busca por nombre de usuario <Image src={Github} />
+        <Image src={Github} />
         </h1>
-        <form id="myForm">
-        <div>
-          <input type="text" id="search"></input>
-          <input type="submit" value="buscar usuario" onClick={Search}></input>
-          </div>  
-        </form>
-        <div id="result"></div>
-        <br />
+        
       </div>
     </Container>
   );

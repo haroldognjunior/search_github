@@ -1,0 +1,14 @@
+table{
+    text-align: left !important;
+    margin-bottom: 40px;
+}
+
+.table, td, a{
+    color: black;
+    text-align: left !important;
+    justify-content: left !important;
+}
+
+.count{
+    margin-bottom: 40px;
+}
